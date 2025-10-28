@@ -1,0 +1,27 @@
+.container {
+    display: flex;
+    background-color: #F1F5F9;
+    padding: 80px;
+    gap: 48px;
+}
+
+.container__elem {
+    text-align: center;
+    display: grid;
+    gap: 16px;
+}
+
+.container__elem-img img {
+    width: 104px;
+}
+
+.container__elem-h {
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 110%;
+}
+
+.container__elem-text {
+    font-size: 18px;
+    line-height: 160%;
+}

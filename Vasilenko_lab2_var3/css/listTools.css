@@ -1,0 +1,65 @@
+.listTools {
+    display: grid;
+    background-color: #F1F5F9;
+    padding-bottom: 80px;
+}
+
+.listTools1 {
+    display: grid;
+    padding: 80px;
+    gap: 80px;
+}
+
+.listTools__title {
+    display: grid;
+    gap: 24px;
+    text-align: center;
+}
+
+.listTools__title-h {
+    font-size: 56px;
+    font-weight: 800;
+    line-height: 110%;
+}
+
+.listTools__title-text {
+    font-size: 18px;
+    line-height: 160%;
+}
+
+.listTools__content {
+    display: flex;
+    gap: 48px;
+    align-items: center;
+}
+
+.listTools__content-img img {
+    width: 550px;
+}
+
+.listTools__content-desc {
+    display: grid;
+    gap: 24px;
+}
+
+.listTools__content-desc-h {
+    font-size: 20px;
+    line-height: 110%;
+}
+
+.listTools__content-desc-text {
+    font-size: 18px;
+    line-height: 160%;
+}
+
+.listTools_buttom {
+    width: 225px;
+    margin: auto;
+    padding: 20px 24px;
+    background-color: #FBBC05;
+    color:#fff;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    border-radius: 8px;
+}

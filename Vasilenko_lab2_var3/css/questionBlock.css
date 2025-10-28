@@ -1,0 +1,34 @@
+.questions {
+    display: grid;
+    padding: 80px;
+}
+
+.questions__title {
+    padding-bottom: 80px;
+    text-align: center;
+    font-size: 56px;
+    font-weight: 800;
+    line-height: 110%;
+}
+
+.questions__question {
+    display: flex;
+    padding: 32px 0px;
+    border-top: 1px solid #E2E8F0;
+    gap: 8px;
+}
+
+.questions__question-text {
+    color: #2563EB;
+    font-size: 24px;
+    width: 1280px;
+}
+
+.questions__question-img {
+    display: flex;
+    align-items: center;
+}
+
+.questions__question-img img {
+    width: 24px;
+}

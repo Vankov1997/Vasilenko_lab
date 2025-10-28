@@ -1,0 +1,20 @@
+@import url("header.css");
+@import url("startContent.css");
+@import url("listContainer.css");
+@import url("listTools.css");
+@import url("storiesBlock.css");
+@import url("questionBlock.css");
+@import url("endContent.css");
+
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+body {
+    width: 1440px;
+    margin: 0 auto;
+}
