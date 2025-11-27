@@ -1,0 +1,176 @@
+.history {
+    display: grid;
+    margin: 100px 162px;
+    gap: 100px;
+}
+
+.history__title {
+    display: grid;
+    justify-content: center;
+    text-align: center;
+    gap: 19px;
+}
+
+.history__title-button {
+    margin: auto;
+    padding: 10px 20px;
+    border: 2px solid #262626;
+    border-radius: 8px;
+    width: 240px;
+    background-color: #fff;
+    font-size: 18px;
+}
+
+.history__title-title {
+    font-family: "Raleway", sans-serif;
+    font-weight: bold;
+    font-size: 48px;
+    color: #1A1A1A;
+}
+
+.history__title-text {
+    font-size: 20px;
+}
+
+.history__block {
+    border: 2px solid #262626;
+    border-radius: 12px;
+    background-color: #fff;
+    filter: drop-shadow(5px 5px 0 #262626);
+    display: grid;
+    padding: 150px;
+    gap: 100px;
+}
+
+.history__block-item {
+    display: flex;
+    gap: 50px;
+}
+
+.history__block-item-year {
+    gap: 20px;
+    border: 2px solid #262626;
+    border-radius: 12px;
+    background-color: #fff;
+    filter: drop-shadow(5px 5px 0 #262626);
+    display: flex;
+    padding: 30px 50px;
+}
+
+.history__block-item-year img {
+    width: 81px;
+}
+
+.history__block-item-year h1 {
+    font-family: "Raleway", sans-serif;
+    font-weight: bold;
+    font-size: 68px;
+    color: #1A1A1A;
+}
+
+.history__block-item-text {
+    display: grid;
+    gap: 20px;
+}
+
+.history__block-item-text h1 {
+    font-family: "Raleway", sans-serif;
+    font-weight: bold;
+    font-size: 28px;
+    color: #1A1A1A;
+}
+
+.history__block-item-text h1 {
+    font-size: 20px;
+}
+
+/* Мобильная версия */
+@media (max-width: 768px) {
+    .history {
+        display: grid;
+        margin: 70px 16px;
+        gap: 50px;
+    }
+
+    .history__title {
+        display: grid;
+        justify-content: center;
+        text-align: center;
+        gap: 10px;
+    }
+
+    .history__title-button {
+        margin: auto;
+        padding: 8px 14px;
+        border: 2px solid #262626;
+        border-radius: 8px;
+        width: 185px;
+        background-color: #fff;
+        font-size: 14px;
+    }
+
+    .history__title-title {
+        font-family: "Raleway", sans-serif;
+        font-weight: bold;
+        font-size: 38px;
+        color: #1A1A1A;
+    }
+
+    .history__title-text {
+        font-size: 16px;
+    }
+
+    .history__block {
+        border: 2px solid #262626;
+        border-radius: 12px;
+        background-color: #fff;
+        filter: drop-shadow(5px 5px 0 #262626);
+        display: grid;
+        padding: 50px 20px;
+        gap: 50px;
+    }
+
+    .history__block-item {
+        display: grid;
+        gap: 30px;
+    }
+
+    .history__block-item-year {
+        gap: 20px;
+        border: 2px solid #262626;
+        border-radius: 12px;
+        background-color: #fff;
+        filter: drop-shadow(5px 5px 0 #262626);
+        display: flex;
+        padding: 20px 24px;
+        width: 206px;
+    }
+
+    .history__block-item-year img {
+        width: 50px;
+    }
+
+    .history__block-item-year h1 {
+        font-family: "Raleway", sans-serif;
+        font-weight: bold;
+        font-size: 38px;
+        color: #1A1A1A;
+    }
+
+    .history__block-item-text {
+        display: grid;
+        gap: 12px;
+        padding-left: 44px;
+    }
+
+    .history__block-item-text h1 {
+        font-family: "Raleway", sans-serif;
+        font-weight: bold;
+        font-size: 22px;
+        color: #1A1A1A;
+    }
+
+    .history__block-item-text h1 {
+        font-size: 16px;
+    }
+}

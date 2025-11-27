@@ -1,0 +1,141 @@
+.mission {
+    display: grid;
+    margin: 100px 162px;
+    gap: 100px;
+}
+
+.mission__title {
+    display: grid;
+    justify-content: center;
+    text-align: center;
+    gap: 19px;
+}
+
+.mission__title-button {
+    margin: auto;
+    padding: 10px 20px;
+    border: 2px solid #262626;
+    border-radius: 8px;
+    width: 180px;
+    background-color: #fff;
+    font-size: 18px;
+}
+
+.mission__title-title {
+    font-family: "Raleway", sans-serif;
+    font-weight: bold;
+    font-size: 48px;
+    color: #1A1A1A;
+}
+
+.mission__title-text {
+    font-size: 20px;
+}
+
+.mission__block {
+    display: flex;
+    gap: 60px;
+}
+
+.mission__block-cont {
+    border: 2px solid #262626;
+    border-radius: 12px;
+    background-color: #fff;
+    filter: drop-shadow(5px 5px 0 #262626);
+    display: grid;
+    padding: 60px;
+    gap: 60px;
+}
+
+.mission__block-cont-title {
+    display: flex;
+}
+
+.mission__block-cont-title img {
+    width: 80px;
+}
+
+.mission__block-cont-title h1 {
+    margin-right: auto;
+    font-family: "Raleway", sans-serif;
+    font-weight: bold;
+    font-size: 48px;
+    color: #1A1A1A;
+}
+
+.mission__block-cont-text {
+    font-size: 20px;
+}
+
+
+/* Мобильная версия */
+@media (max-width: 768px) {
+    .mission {
+        display: grid;
+        margin: 70px 16px;
+        gap: 50px;
+    }
+
+    .mission__title {
+        display: grid;
+        justify-content: center;
+        text-align: center;
+        gap: 10px;
+    }
+
+    .mission__title-button {
+        margin: auto;
+        padding: 8px 14px;
+        border: 2px solid #262626;
+        border-radius: 8px;
+        width: 140px;
+        background-color: #fff;
+        font-size: 14px;
+    }
+
+    .mission__title-title {
+        font-family: "Raleway", sans-serif;
+        font-weight: bold;
+        font-size: 38px;
+        color: #1A1A1A;
+    }
+
+    .mission__title-text {
+        font-size: 18px;
+    }
+
+    .mission__block {
+        display: grid;
+        gap: 30px;
+    }
+
+    .mission__block-cont {
+        border: 2px solid #262626;
+        border-radius: 10px;
+        background-color: #fff;
+        filter: drop-shadow(5px 5px 0 #262626);
+        display: grid;
+        padding: 40px;
+        gap: 40px;
+    }
+
+    .mission__block-cont-title {
+        display: flex;
+    }
+
+    .mission__block-cont-title img {
+        width: 50px;
+    }
+
+    .mission__block-cont-title h1 {
+        margin-right: auto;
+        font-family: "Raleway", sans-serif;
+        font-weight: bold;
+        font-size: 30px;
+        color: #1A1A1A;
+    }
+
+    .mission__block-cont-text {
+        font-size: 16px;
+    }
+}
