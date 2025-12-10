@@ -1,0 +1,52 @@
+.welcome {
+        margin: 100px 16px;
+        border: 2px solid #262626;
+        border-radius: 12px;
+        background-color: #fff;
+        padding: 50px 30px;
+        gap: 20px;
+        position: relative;
+        display: grid;
+        filter: drop-shadow(5px 5px 0 #262626);
+    }
+
+    .welcome img {
+        width: 100px;
+        /* background-position: top left;
+        margin: -100px -120px; */
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+
+    .welcome__title {
+        flex-grow: 1;
+        flex-basis: 0;
+        display: grid;
+        gap: 10px;
+    }
+
+    .welcome__title-button {
+        padding: 8px 16px;
+        margin: auto;
+        border: 2px solid #262626;
+        border-radius: 8px;
+        width: 92px;
+        background-color: #fff;
+        font-size: 14px;
+    }
+
+    .welcome__title-text {
+        font-family: "Raleway", sans-serif;
+        font-weight: bold;
+        font-size: 28px;
+        color: #1A1A1A;
+        text-align: center;
+    }
+
+    .welcome__text {
+        flex-grow: 1;
+        flex-basis: 0;
+        font-size: 16px;
+        text-align: center;
+    }

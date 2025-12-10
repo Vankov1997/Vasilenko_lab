@@ -1,0 +1,20 @@
+@import url("header_mobile.css");
+@import url("welcome-block_mobile.css");
+@import url("mission_mobile.css");
+@import url("history_mobile.css");
+@import url("team_mobile.css");
+@import url("footer_mobile.css");
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+	font-family: "Outfit", sans-serif;
+    color: #333333;
+}
+
+body {
+    max-width:768px;
+    margin:0 auto;
+}

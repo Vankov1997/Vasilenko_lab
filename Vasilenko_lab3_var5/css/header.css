@@ -1,0 +1,135 @@
+.header {
+    display: flex;
+    margin: 18px 51px;
+    border: 2px solid #262626;
+    border-radius: 12px;
+    background-color: #fff;
+}
+
+.header__logo {
+    display: flex;
+    padding: 20px 24px;
+    gap: 10px;
+    background-color: #FF8D4D;
+    border-top-left-radius: 12px;
+    border-bottom-left-radius: 12px;
+    align-items: center;
+    margin-right: auto;
+}
+
+.header__logo img {
+    width: 20px;
+}
+.header__logo-text {
+    font-size: 20px;
+}
+
+.header__nav-menu {
+    display: flex;
+    color: #262626;
+    list-style: none;
+    padding: 0;
+    align-items: center;
+}
+
+.header__nav-menu-item {
+    padding: 20px 34px;
+    font-size: 20px;
+    border-left: 2px solid #262626;
+}
+
+.header__nav-menu-item a {
+    text-decoration: none;
+}
+
+.header__addmenu {
+    display: none;
+}
+
+/* Мобильная версия */
+@media only screen and (max-width: 768px) {
+    .header {
+        display: flex;
+        margin: 40px 17px;
+        border: 2px solid #262626;
+        border-radius: 12px;
+        background-color: #fff;
+    }
+
+    .header__logo {
+        display: flex;
+        padding: 16px 20px;
+        gap: 5px;
+        background-color: #FF8D4D;
+        border-top-left-radius: 12px;
+        border-bottom-left-radius: 12px;
+        align-items: center;
+        margin-right: auto;
+    }
+
+    .header__logo img {
+        width: 20px;
+    }
+    .header__logo-text {
+        font-size: 16px;
+    }
+
+    .header__nav {
+        display: none;
+        flex-grow: 1;
+        flex-direction: column;
+        position: absolute;
+        top: 50px;
+        right: 20px;
+        background-color: #FFEFE5;
+        border-radius: 4px;
+        gap: 10px;
+        padding: 20px;
+        z-index: 9;
+    }
+
+    .header__nav.active {
+        display: flex;
+    }
+
+    .header__addmenu {
+        display: grid;
+        padding: 16px 30px;
+        background-color: #FFEFE5;
+        border-left: 2px solid #262626;
+        border-top-right-radius: 12px;
+        border-bottom-right-radius: 12px;
+        flex-direction: column;
+    }
+
+    .header__addmenu img {
+        width: 28px;
+    }
+
+    .header__nav-menu {
+        display: grid;
+        color: #262626;
+        list-style: none;
+    }
+
+    .header__nav-menu-item {
+        padding: 10px 24px;
+        font-size: 20px;
+        color: #FAFDF2;
+        font-size: 16px;
+        font-weight: 600;
+        list-style: none;
+    }
+
+    .header__nav-menu-item a {
+        text-decoration: none;
+    }
+
+    .header__addmenu-line {
+        margin: 2px;
+        width: 25px;
+        height: 3px;
+        background-color: #262626;
+        transition: all 0.5s ease;
+    }
+}
