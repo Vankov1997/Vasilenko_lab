@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Vasilenko_lab3_v5</title>
+    <link rel="stylesheet"  href="./css/style.css" type="text/css" media="screen and (min-device-width: 769px)">
+    <link rel="stylesheet"  href="./css/mobile.css" type="text/css" media="only screen and (max-device-width: 768px)">
+    <link rel="stylesheet"  href="./css/mobile.css" type="text/css" media="handheld"/>
+    <script src="./JS/addMenu.js"></script>
+
+    <!--Шрифт raleway + outfit-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  
+
+</head>
+  <body>
+    <header class="header">
+        <div class="header__logo">
+            <img src="./img/logo.png">
+            <div class="header__logo-text">Little Learners</div>
+        </div>
+        <nav class="header__nav">
+            <ul class="header__nav-menu">
+                <li class="header__nav-menu-item"><a href="#">Home</a></li>
+                <li class="header__nav-menu-item"><a href="#">About Us</a></li>
+                <li class="header__nav-menu-item" style="background-color: #FFEFE5;"><a href="#">Academics</a></li>
+                <li class="header__nav-menu-item"><a href="#">Admissions</a></li>
+                <li class="header__nav-menu-item"><a href="#">Student Life</a></li>
+                <li class="header__nav-menu-item" style="background-color: #FFAE80; border-top-right-radius: 12px; border-bottom-right-radius: 12px;"><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+
+        <div class="header__addmenu" onclick="addMenu()">
+            <span class="header__addmenu-line"></span>
+            <span class="header__addmenu-line"></span>
+            <span class="header__addmenu-line"></span>
+        </div>
+    </header>
+    
+    <div class="welcome">
+      <img src="./img/corner.png">
+      <div class="welcome__title">
+        <button class="welcome__title-button">Overview</button>
+        <h1 class="welcome__title-text">Welcome to Little Learners Academy</h1>
+      </div>
+      <div class="welcome__text">A leading kinder garden school dedicated to providing a nurturing and stimulating environment for young learners. With a commitment to excellence in early education, we believe in shaping curious minds and building a strong foundation for a lifelong love of learning. Our holistic approach fosters intellectual, social, emotional, and physical development, ensuring that each child reaches their full potential.</div>
+    </div>
+
+    <div class="mission">
+      <div class="mission__title">
+        <button class="mission__title-button">Mission & Visions</button>
+        <h1 class="mission__title-title">Our Mission & Visions</h1>
+        <div class="mission__title-text">We are here to provide a nurturing and inclusive environment where young minds can thrive, fostering a love for learning and personal growth.</div>
+      </div>
+      <div class="mission__block">
+        <div class="mission__block-cont">
+          <div class="mission__block-cont-title">
+            <h1>Mission</h1>
+            <img src="./img/mission.png">
+          </div>
+          <div class="mission__block-cont-text">At Little Learners Academy, our mission is to inspire a passion for learning and empower young minds to become confident, compassionate, and creative individuals. We strive to create a safe and inclusive space where children thrive academically, socially, and emotionally, setting the stage for a successful educational journey.</div>
+        </div>
+        <div class="mission__block-cont">
+          <div class="mission__block-cont-title">
+            <h1>Vision</h1>
+            <img src="./img/vision.png">
+          </div>
+          <div class="mission__block-cont-text">Our vision is to be a beacon of educational excellence, where children are encouraged to explore, discover, and express their unique talents. We aim to foster a generation of lifelong learners equipped with critical thinking, empathy, and a deep appreciation for diversity.</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="history">
+      <div class="history__title">
+        <button class="history__title-button">Our Progressive Journey</button>
+        <h1 class="history__title-title">Our History</h1>
+        <div class="history__title-text">Founded with a passion for early education in 2005, our kindergarten school boasts a rich history of empowering young learners to reach their potential through innovative teaching methods and a supportive learning environment</div>
+      </div>
+      
+      <div class="history__block">
+        <div class="history__block-item">
+          <div class="history__block-item-year">
+            <img src="./img/cube.png">
+            <h1>2023</h1>
+          </div>
+          <div class="history__block-item-text">
+            <h1>Resilience and Future Horizons</h1>
+            <div>Adapting to new challenges, we remained committed to our mission of providing an exceptional early education. Looking ahead with optimism, we envision a future filled with boundless possibilities as we continue shaping the leaders and thinkers of tomorrow.</div>
+          </div>
+        </div>
+
+        <div class="history__block-item">
+          <div class="history__block-item-year">
+            <img src="./img/cube.png">
+            <h1>2017</h1>
+          </div>
+          <div class="history__block-item-text">
+            <h1>Innovation and Technology</h1>
+            <div>Innovation became the driving force behind our kindergarten's progress from 2016 to 2020. Embracing the latest educational technologies, we crafted engaging and interactive learning experiences for our students.</div>
+          </div>
+        </div>
+
+        <div class="history__block-item">
+          <div class="history__block-item-year">
+            <img src="./img/cube.png">
+            <h1>2012</h1>
+          </div>
+          <div class="history__block-item-text">
+            <h1>Expansion and Recognition</h1>
+            <div>These years marked as a period of expansion and recognition for our school. As we extended our facilities and enhanced our curriculum, we received accolades for our commitment to quality education and innovative teaching methodologies.</div>
+          </div>
+        </div>
+       
+        <div class="history__block-item">
+          <div class="history__block-item-year">
+            <img src="./img/cube.png">
+            <h1>2005</h1>
+          </div>
+          <div class="history__block-item-text">
+            <h1>Inception and Growth</h1>
+            <div>Established in 2005, our kindergarten school began its journey with a vision to provide a nurturing space for young minds to explore, learn, and grow. Over the next five years, we witnessed significant growth.</div>
+          </div>
+        </div>        
+      </div>
+    </div>
+
+    <div class="team">
+      <div class="team__title">
+        <button class="team__title-button">Our Teachers With Experties</button>
+        <h1 class="team__title-title">Our Team Members</h1>
+        <div class="team__title-text">At Little Learners Academy, our teaching team is the heart of our educational journey. We take great pride in employing highly qualified and passionate educators who possess a deep understanding of early childhood development. Our teachers create a warm and engaging atmosphere, encouraging curiosity, instilling confidence, and fostering a love for learning.</div>
+      </div>
+
+      <div class="team__block">
+        <div class="team__block-item">
+          <div class="team__block-item-name">
+            <div class="team__block-item-name-title">
+              <img src="./img/avatar1.png">
+              <h1>Ms. Sarah Anderson</h1>
+            </div>
+            <div class="team__block-item-name-email">
+              <img src="./img/mail.png">
+            </div>
+          </div>
+          <div class="team__block-item-text">
+            <h2>Qualification:Bachelor's Degree in Early Childhood Education</h2>
+            <div>Ms. Sarah is a passionate educator with over 10 years of experience in guiding young minds. Her warm and nurturing approach creates a welcoming classroom environment where children feel comfortable to explore and learn.</div>
+          </div>
+        </div>
+
+        <div class="team__block-item">
+          <div class="team__block-item-name">
+            <div class="team__block-item-name-title">
+              <img src="./img/avatar2.png">
+              <h1>Mr. David Roberts</h1>
+            </div>
+            <div class="team__block-item-name-email">
+              <img src="./img/mail.png">
+            </div>
+          </div>
+          <div class="team__block-item-text">
+            <h2>Qualification: Master's Degree in Elementary Education</h2>
+            <div>With a strong background in elementary education, Mr. David brings a creative and interactive teaching style to his classroom. His enthusiasm for learning inspires students to ask questions and think critically.</div>
+          </div>
+        </div>  
+
+        <div class="team__block-item">
+          <div class="team__block-item-name">
+            <div class="team__block-item-name-title">
+              <img src="./img/avatar3.png">
+              <h1>Ms. Emily Hernandez</h1>
+            </div>
+            <div class="team__block-item-name-email">
+              <img src="./img/mail.png">
+            </div>
+          </div>
+          <div class="team__block-item-text">
+            <h2>Qualification: Diploma in Child Psychology</h2>
+            <div>Ms. Emily's expertise in child psychology enables her to understand each child's unique needs and provide individualized support. Her caring nature fosters a strong sense of belonging and confidence in her students.</div>
+          </div>
+        </div> 
+        
+         <div class="team__block-item">
+          <div class="team__block-item-name">
+            <div class="team__block-item-name-title">
+              <img src="./img/avatar4.png">
+              <h1>Mr. Michael Turner</h1>
+            </div>
+            <div class="team__block-item-name-email">
+              <img src="./img/mail.png">
+            </div>
+          </div>
+          <div class="team__block-item-text">
+            <h2>Qualification: Bachelor's Degree in Physical Education</h2>
+            <div>Mr. Michael's passion for physical fitness and sports shines through in his energetic classes. He encourages students to stay active, promoting teamwork and a healthy lifestyle.</div>
+          </div>
+        </div>
+        
+        <div class="team__block-item">
+          <div class="team__block-item-name">
+            <div class="team__block-item-name-title">
+              <img src="./img/avatar5.png">
+              <h1>Ms. Jessica Lee</h1>
+            </div>
+            <div class="team__block-item-name-email">
+              <img src="./img/mail.png">
+            </div>
+          </div>
+          <div class="team__block-item-text">
+            <h2>Qualification: Master's Degree in Special Education</h2>
+            <div>Ms. Jessica's specialization in special education allows her to create an inclusive and supportive learning environment for all students. She is dedicated to helping every child reach their full potential.</div>
+          </div>
+        </div>
+
+        <div class="team__block-item">
+          <div class="team__block-item-name">
+            <div class="team__block-item-name-title">
+              <img src="./img/avatar6.png">
+              <h1>Mr. William Parker</h1>
+            </div>
+            <div class="team__block-item-name-email">
+              <img src="./img/mail.png">
+            </div>
+          </div>
+          <div class="team__block-item-text">
+            <h2>Qualification: Bachelor's Degree in Fine Arts</h2>
+            <div>Mr. William's background in fine arts brings creativity and imagination to his classroom. Through art projects and activities, he nurtures the artistic expression and self-confidence of his students.</div>
+          </div>
+        </div>
+          
+      </div>
+    </div>
+
+    <footer class="footer">
+      <div class="footer__menu">
+        <div class="footer__menu-info">
+          <div class="footer__menu-info-title">
+            <div class="footer__menu-info-title-logo">
+              <img src="./img/logo.png">
+              <h1>Little Learners</h1>
+            </div>
+            <div class="footer__menu-info-title-text">We believe in the power of play to foster creativity, problem-solving skills, and imagination.</div>
+          </div>
+          <div class="footer__menu-info-contact">
+            <div class="footer__menu-info-contact-item">
+              <div class="footer__menu-info-contact-item-img"><img src="./img/mail.png"></div>
+              <div class="footer__menu-info-contact-item-text">hello@littlelearners.com</div>
+            </div>
+            <div class="footer__menu-info-contact-item">
+              <div class="footer__menu-info-contact-item-img"><img src="./img/phone.png"></div>
+              <div class="footer__menu-info-contact-item-text">+91 91813 23 2309</div>
+            </div>
+            <div class="footer__menu-info-contact-item">
+              <div class="footer__menu-info-contact-item-img"><img src="./img/maps.png"></div>
+              <div class="footer__menu-info-contact-item-text">Somewhere in the World</div>
+            </div>           
+          </div>
+        </div>
+        <div class="footer__menu-elem">
+          <div class="footer__menu-elem-item">
+            <h1 class="footer__menu-elem-item-title">Home</h1>
+            <div class="footer__menu-elem-item-text">
+              <div>Features</div>
+              <div>Our Testimonials</div>
+              <div>FAQ</div>
+            </div>
+          </div>
+          <div class="footer__menu-elem-item">
+            <h1 class="footer__menu-elem-item-title">About Us</h1>
+            <div class="footer__menu-elem-item-text">
+              <div>Our Mission</div>
+              <div>Our Vission</div>
+              <div>Awards and Recognitions</div>
+              <div>History</div>
+              <div>Teachers</div>
+            </div>
+          </div>
+          <div class="footer__menu-elem-item">
+            <h1 class="footer__menu-elem-item-title">Academics</h1>
+            <div class="footer__menu-elem-item-text">
+              <div>Special Features</div>
+              <div>Gallery</div>
+            </div>
+          </div>
+          <div class="footer__menu-elem-item">
+            <h1 class="footer__menu-elem-item-title">Contact Us</h1>
+            <div class="footer__menu-elem-item-text">
+              <div>Information</div>
+              <div>Map & Direction</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer__contact">
+        <div class="footer__contact-link">
+          <div class="footer__contact-link-text">
+            <div>Terms of Service</div>
+            <div>|</div>
+            <div>Privacy Policy</div>
+            <div>|</div>
+            <div>Cookie Policy</div>
+          </div>
+          <div class="footer__contact-link-img">
+            <div class="footer__contact-link-img-item"><img src="./img/facebook.png"></div>
+            <div class="footer__contact-link-img-item"><img src="./img/twitter.png"></div>
+            <div class="footer__contact-link-img-item"><img src="./img/in.png"></div>
+          </div>
+        </div>
+        <div class="footer__contact-text">Copyright © [2023] Little Learners Academy. All rights reserved.</div>
+      </div>
+    </footer>
+  </body>
+ 
